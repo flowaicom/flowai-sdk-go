@@ -125,9 +125,9 @@ func WithTimeout(timeout time.Duration) SDKOption {
 // New creates a new instance of the SDK with the provided options
 func New(opts ...SDKOption) *FlowAi {
 	sdk := &FlowAi{
-		SDKVersion: "0.0.3",
+		SDKVersion: "0.0.4",
 		sdkConfiguration: config.SDKConfiguration{
-			UserAgent:  "speakeasy-sdk/go 0.0.3 2.616.1 0.1.0 github.com/flowaicom/flowai-sdk-go",
+			UserAgent:  "speakeasy-sdk/go 0.0.4 2.616.1 0.1.0 github.com/flowaicom/flowai-sdk-go",
 			ServerList: ServerList,
 		},
 		hooks: hooks.New(),
