@@ -21,7 +21,7 @@ generation:
     oAuth2PasswordEnabled: true
   sdkHooksConfigAccess: true
 go:
-  version: 0.0.6
+  version: 0.0.7
   additionalDependencies: {}
   allowUnknownFieldsInWeakUnions: false
   clientServerStatusCodesAsErrors: true
