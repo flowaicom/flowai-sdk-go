@@ -1,6 +1,6 @@
 # github.com/flowaicom/flowai-sdk-go
 
-Developer-friendly & type-safe Go SDK specifically catered to leverage *github.com/flowaicom/flowai-sdk-go* API. 
+Developer-friendly & type-safe Go SDK specifically catered to leverage *github.com/flowaicom/flowai-sdk-go* API.
 
 <div align="left">
     <a href="https://www.speakeasy.com/?utm_source=github-com/flowaicom/flowai-sdk-go&utm_campaign=go"><img src="https://custom-icon-badges.demolab.com/badge/-Built%20By%20Speakeasy-212015?style=for-the-badge&logoColor=FBE331&logo=speakeasy&labelColor=545454" /></a>
