@@ -18,12 +18,12 @@ import (
 )
 
 type Authentication struct {
-	rootSDK          *FlowAi
+	rootSDK          *FlowAI
 	sdkConfiguration config.SDKConfiguration
 	hooks            *hooks.Hooks
 }
 
-func newAuthentication(rootSDK *FlowAi, sdkConfig config.SDKConfiguration, hooks *hooks.Hooks) *Authentication {
+func newAuthentication(rootSDK *FlowAI, sdkConfig config.SDKConfiguration, hooks *hooks.Hooks) *Authentication {
 	return &Authentication{
 		rootSDK:          rootSDK,
 		sdkConfiguration: sdkConfig,

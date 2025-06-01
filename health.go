@@ -18,12 +18,12 @@ import (
 )
 
 type Health struct {
-	rootSDK          *FlowAi
+	rootSDK          *FlowAI
 	sdkConfiguration config.SDKConfiguration
 	hooks            *hooks.Hooks
 }
 
-func newHealth(rootSDK *FlowAi, sdkConfig config.SDKConfiguration, hooks *hooks.Hooks) *Health {
+func newHealth(rootSDK *FlowAI, sdkConfig config.SDKConfiguration, hooks *hooks.Hooks) *Health {
 	return &Health{
 		rootSDK:          rootSDK,
 		sdkConfiguration: sdkConfig,

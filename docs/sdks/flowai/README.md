@@ -1,4 +1,4 @@
-# FlowAi SDK
+# FlowAI SDK
 
 ## Overview
 

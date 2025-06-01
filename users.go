@@ -18,12 +18,12 @@ import (
 )
 
 type Users struct {
-	rootSDK          *FlowAi
+	rootSDK          *FlowAI
 	sdkConfiguration config.SDKConfiguration
 	hooks            *hooks.Hooks
 }
 
-func newUsers(rootSDK *FlowAi, sdkConfig config.SDKConfiguration, hooks *hooks.Hooks) *Users {
+func newUsers(rootSDK *FlowAI, sdkConfig config.SDKConfiguration, hooks *hooks.Hooks) *Users {
 	return &Users{
 		rootSDK:          rootSDK,
 		sdkConfiguration: sdkConfig,

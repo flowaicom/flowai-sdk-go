@@ -17,12 +17,12 @@ import (
 )
 
 type Datasets struct {
-	rootSDK          *FlowAi
+	rootSDK          *FlowAI
 	sdkConfiguration config.SDKConfiguration
 	hooks            *hooks.Hooks
 }
 
-func newDatasets(rootSDK *FlowAi, sdkConfig config.SDKConfiguration, hooks *hooks.Hooks) *Datasets {
+func newDatasets(rootSDK *FlowAI, sdkConfig config.SDKConfiguration, hooks *hooks.Hooks) *Datasets {
 	return &Datasets{
 		rootSDK:          rootSDK,
 		sdkConfiguration: sdkConfig,

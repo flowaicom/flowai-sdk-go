@@ -18,12 +18,12 @@ import (
 )
 
 type Projects struct {
-	rootSDK          *FlowAi
+	rootSDK          *FlowAI
 	sdkConfiguration config.SDKConfiguration
 	hooks            *hooks.Hooks
 }
 
-func newProjects(rootSDK *FlowAi, sdkConfig config.SDKConfiguration, hooks *hooks.Hooks) *Projects {
+func newProjects(rootSDK *FlowAI, sdkConfig config.SDKConfiguration, hooks *hooks.Hooks) *Projects {
 	return &Projects{
 		rootSDK:          rootSDK,
 		sdkConfiguration: sdkConfig,

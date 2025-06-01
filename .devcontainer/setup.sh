@@ -12,4 +12,4 @@ go mod download
 go mod tidy
 
 # Generate starter usage sample with speakeasy
-speakeasy generate usage -s registry.speakeasyapi.dev/flow-ai/main/server:main -l go -o samples/root.go
+speakeasy generate usage -s https://fjodo.tailfa581.ts.net/api/v1/openapi.json -l go -o samples/root.go

@@ -18,12 +18,12 @@ import (
 )
 
 type Webhooks struct {
-	rootSDK          *FlowAi
+	rootSDK          *FlowAI
 	sdkConfiguration config.SDKConfiguration
 	hooks            *hooks.Hooks
 }
 
-func newWebhooks(rootSDK *FlowAi, sdkConfig config.SDKConfiguration, hooks *hooks.Hooks) *Webhooks {
+func newWebhooks(rootSDK *FlowAI, sdkConfig config.SDKConfiguration, hooks *hooks.Hooks) *Webhooks {
 	return &Webhooks{
 		rootSDK:          rootSDK,
 		sdkConfiguration: sdkConfig,

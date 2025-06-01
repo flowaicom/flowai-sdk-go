@@ -2,8 +2,8 @@ configVersion: 2.0.0
 generation:
   devContainers:
     enabled: true
-    schemaPath: registry.speakeasyapi.dev/flow-ai/main/server:main
-  sdkClassName: FlowAi
+    schemaPath: https://fjodo.tailfa581.ts.net/api/v1/openapi.json
+  sdkClassName: FlowAI
   maintainOpenAPIOrder: true
   usageSnippets:
     optionalPropertyRendering: withExample
@@ -21,7 +21,7 @@ generation:
     oAuth2PasswordEnabled: true
   sdkHooksConfigAccess: true
 go:
-  version: 0.0.4
+  version: 0.0.6
   additionalDependencies: {}
   allowUnknownFieldsInWeakUnions: false
   clientServerStatusCodesAsErrors: true

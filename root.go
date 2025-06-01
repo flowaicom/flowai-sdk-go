@@ -18,12 +18,12 @@ import (
 )
 
 type Root struct {
-	rootSDK          *FlowAi
+	rootSDK          *FlowAI
 	sdkConfiguration config.SDKConfiguration
 	hooks            *hooks.Hooks
 }
 
-func newRoot(rootSDK *FlowAi, sdkConfig config.SDKConfiguration, hooks *hooks.Hooks) *Root {
+func newRoot(rootSDK *FlowAI, sdkConfig config.SDKConfiguration, hooks *hooks.Hooks) *Root {
 	return &Root{
 		rootSDK:          rootSDK,
 		sdkConfiguration: sdkConfig,

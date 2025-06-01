@@ -18,12 +18,12 @@ import (
 )
 
 type Batches struct {
-	rootSDK          *FlowAi
+	rootSDK          *FlowAI
 	sdkConfiguration config.SDKConfiguration
 	hooks            *hooks.Hooks
 }
 
-func newBatches(rootSDK *FlowAi, sdkConfig config.SDKConfiguration, hooks *hooks.Hooks) *Batches {
+func newBatches(rootSDK *FlowAI, sdkConfig config.SDKConfiguration, hooks *hooks.Hooks) *Batches {
 	return &Batches{
 		rootSDK:          rootSDK,
 		sdkConfiguration: sdkConfig,

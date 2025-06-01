@@ -18,12 +18,12 @@ import (
 )
 
 type APIKeys struct {
-	rootSDK          *FlowAi
+	rootSDK          *FlowAI
 	sdkConfiguration config.SDKConfiguration
 	hooks            *hooks.Hooks
 }
 
-func newAPIKeys(rootSDK *FlowAi, sdkConfig config.SDKConfiguration, hooks *hooks.Hooks) *APIKeys {
+func newAPIKeys(rootSDK *FlowAI, sdkConfig config.SDKConfiguration, hooks *hooks.Hooks) *APIKeys {
 	return &APIKeys{
 		rootSDK:          rootSDK,
 		sdkConfiguration: sdkConfig,

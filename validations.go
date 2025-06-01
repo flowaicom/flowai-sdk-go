@@ -18,12 +18,12 @@ import (
 )
 
 type Validations struct {
-	rootSDK          *FlowAi
+	rootSDK          *FlowAI
 	sdkConfiguration config.SDKConfiguration
 	hooks            *hooks.Hooks
 }
 
-func newValidations(rootSDK *FlowAi, sdkConfig config.SDKConfiguration, hooks *hooks.Hooks) *Validations {
+func newValidations(rootSDK *FlowAI, sdkConfig config.SDKConfiguration, hooks *hooks.Hooks) *Validations {
 	return &Validations{
 		rootSDK:          rootSDK,
 		sdkConfiguration: sdkConfig,

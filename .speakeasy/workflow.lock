@@ -2,20 +2,19 @@ speakeasyVersion: 1.554.1
 sources:
     FlowAI-OAS:
         sourceNamespace: flow-ai-oas
-        sourceRevisionDigest: sha256:d2f131594194db5fb27f9da7eb55b45e91e79f835abb9fb5b3e8be42bd12d48d
+        sourceRevisionDigest: sha256:ffa172be799e8793527e83d6aa99cb65627d148ac973138d845aa4a4721e0275
         sourceBlobDigest: sha256:d011ce551b1a9bd61451a1dd330d5eb14acd1b3b4b585780906dc896e49a9464
         tags:
             - latest
-            - speakeasy-sdk-regen-1748768308
             - 0.1.0
 targets:
     flow-ai:
         source: FlowAI-OAS
         sourceNamespace: flow-ai-oas
-        sourceRevisionDigest: sha256:d2f131594194db5fb27f9da7eb55b45e91e79f835abb9fb5b3e8be42bd12d48d
+        sourceRevisionDigest: sha256:ffa172be799e8793527e83d6aa99cb65627d148ac973138d845aa4a4721e0275
         sourceBlobDigest: sha256:d011ce551b1a9bd61451a1dd330d5eb14acd1b3b4b585780906dc896e49a9464
         codeSamplesNamespace: flow-ai-oas-go-code-samples
-        codeSamplesRevisionDigest: sha256:71a695f7bef462f49f7dff622e0e86b17278d4db002621e6fc1751d753e9ad8d
+        codeSamplesRevisionDigest: sha256:c4f9f16d8e0459390c23ab3c28ed700e35b1d84888cdf99f88562c8e6aaa570e
 workflow:
     workflowVersion: 1.0.0
     speakeasyVersion: latest

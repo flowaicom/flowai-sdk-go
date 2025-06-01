@@ -17,12 +17,12 @@ import (
 )
 
 type ValidatorTasks struct {
-	rootSDK          *FlowAi
+	rootSDK          *FlowAI
 	sdkConfiguration config.SDKConfiguration
 	hooks            *hooks.Hooks
 }
 
-func newValidatorTasks(rootSDK *FlowAi, sdkConfig config.SDKConfiguration, hooks *hooks.Hooks) *ValidatorTasks {
+func newValidatorTasks(rootSDK *FlowAI, sdkConfig config.SDKConfiguration, hooks *hooks.Hooks) *ValidatorTasks {
 	return &ValidatorTasks{
 		rootSDK:          rootSDK,
 		sdkConfiguration: sdkConfig,

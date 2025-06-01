@@ -46,8 +46,8 @@ func Float64(f float64) *float64 { return &f }
 // Pointer provides a helper function to return a pointer to a type
 func Pointer[T any](v T) *T { return &v }
 
-// FlowAi - server: FastAPI backend for Flow Expert
-type FlowAi struct {
+// FlowAI - server: FastAPI backend for Flow Expert
+type FlowAI struct {
 	SDKVersion      string
 	Health          *Health
 	Webhooks        *Webhooks
@@ -71,18 +71,18 @@ type FlowAi struct {
 	hooks            *hooks.Hooks
 }
 
-type SDKOption func(*FlowAi)
+type SDKOption func(*FlowAI)
 
 // WithServerURL allows the overriding of the default server URL
 func WithServerURL(serverURL string) SDKOption {
-	return func(sdk *FlowAi) {
+	return func(sdk *FlowAI) {
 		sdk.sdkConfiguration.ServerURL = serverURL
 	}
 }
 
 // WithTemplatedServerURL allows the overriding of the default server URL with a templated URL populated with the provided parameters
 func WithTemplatedServerURL(serverURL string, params map[string]string) SDKOption {
-	return func(sdk *FlowAi) {
+	return func(sdk *FlowAI) {
 		if params != nil {
 			serverURL = utils.ReplaceParameters(serverURL, params)
 		}
@@ -93,7 +93,7 @@ func WithTemplatedServerURL(serverURL string, params map[string]string) SDKOptio
 
 // WithServerIndex allows the overriding of the default server by index
 func WithServerIndex(serverIndex int) SDKOption {
-	return func(sdk *FlowAi) {
+	return func(sdk *FlowAI) {
 		if serverIndex < 0 || serverIndex >= len(ServerList) {
 			panic(fmt.Errorf("server index %d out of range", serverIndex))
 		}
@@ -104,30 +104,30 @@ func WithServerIndex(serverIndex int) SDKOption {
 
 // WithClient allows the overriding of the default HTTP client used by the SDK
 func WithClient(client HTTPClient) SDKOption {
-	return func(sdk *FlowAi) {
+	return func(sdk *FlowAI) {
 		sdk.sdkConfiguration.Client = client
 	}
 }
 
 func WithRetryConfig(retryConfig retry.Config) SDKOption {
-	return func(sdk *FlowAi) {
+	return func(sdk *FlowAI) {
 		sdk.sdkConfiguration.RetryConfig = &retryConfig
 	}
 }
 
 // WithTimeout Optional request timeout applied to each operation
 func WithTimeout(timeout time.Duration) SDKOption {
-	return func(sdk *FlowAi) {
+	return func(sdk *FlowAI) {
 		sdk.sdkConfiguration.Timeout = &timeout
 	}
 }
 
 // New creates a new instance of the SDK with the provided options
-func New(opts ...SDKOption) *FlowAi {
-	sdk := &FlowAi{
-		SDKVersion: "0.0.4",
+func New(opts ...SDKOption) *FlowAI {
+	sdk := &FlowAI{
+		SDKVersion: "0.0.6",
 		sdkConfiguration: config.SDKConfiguration{
-			UserAgent:  "speakeasy-sdk/go 0.0.4 2.616.1 0.1.0 github.com/flowaicom/flowai-sdk-go",
+			UserAgent:  "speakeasy-sdk/go 0.0.6 2.616.1 0.1.0 github.com/flowaicom/flowai-sdk-go",
 			ServerList: ServerList,
 		},
 		hooks: hooks.New(),

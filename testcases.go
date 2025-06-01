@@ -18,12 +18,12 @@ import (
 )
 
 type TestCases struct {
-	rootSDK          *FlowAi
+	rootSDK          *FlowAI
 	sdkConfiguration config.SDKConfiguration
 	hooks            *hooks.Hooks
 }
 
-func newTestCases(rootSDK *FlowAi, sdkConfig config.SDKConfiguration, hooks *hooks.Hooks) *TestCases {
+func newTestCases(rootSDK *FlowAI, sdkConfig config.SDKConfiguration, hooks *hooks.Hooks) *TestCases {
 	return &TestCases{
 		rootSDK:          rootSDK,
 		sdkConfiguration: sdkConfig,

@@ -18,12 +18,12 @@ import (
 )
 
 type Integrations struct {
-	rootSDK          *FlowAi
+	rootSDK          *FlowAI
 	sdkConfiguration config.SDKConfiguration
 	hooks            *hooks.Hooks
 }
 
-func newIntegrations(rootSDK *FlowAi, sdkConfig config.SDKConfiguration, hooks *hooks.Hooks) *Integrations {
+func newIntegrations(rootSDK *FlowAI, sdkConfig config.SDKConfiguration, hooks *hooks.Hooks) *Integrations {
 	return &Integrations{
 		rootSDK:          rootSDK,
 		sdkConfiguration: sdkConfig,

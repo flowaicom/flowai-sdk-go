@@ -18,12 +18,12 @@ import (
 )
 
 type Jobs struct {
-	rootSDK          *FlowAi
+	rootSDK          *FlowAI
 	sdkConfiguration config.SDKConfiguration
 	hooks            *hooks.Hooks
 }
 
-func newJobs(rootSDK *FlowAi, sdkConfig config.SDKConfiguration, hooks *hooks.Hooks) *Jobs {
+func newJobs(rootSDK *FlowAI, sdkConfig config.SDKConfiguration, hooks *hooks.Hooks) *Jobs {
 	return &Jobs{
 		rootSDK:          rootSDK,
 		sdkConfiguration: sdkConfig,

@@ -18,12 +18,12 @@ import (
 )
 
 type Stages struct {
-	rootSDK          *FlowAi
+	rootSDK          *FlowAI
 	sdkConfiguration config.SDKConfiguration
 	hooks            *hooks.Hooks
 }
 
-func newStages(rootSDK *FlowAi, sdkConfig config.SDKConfiguration, hooks *hooks.Hooks) *Stages {
+func newStages(rootSDK *FlowAI, sdkConfig config.SDKConfiguration, hooks *hooks.Hooks) *Stages {
 	return &Stages{
 		rootSDK:          rootSDK,
 		sdkConfiguration: sdkConfig,
