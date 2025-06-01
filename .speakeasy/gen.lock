@@ -5,8 +5,10 @@ management:
   docVersion: 0.1.0
   speakeasyVersion: 1.554.1
   generationVersion: 2.616.1
-  releaseVersion: 0.0.3
-  configChecksum: b14386341de52da85f4492bc4aec3fa1
+  releaseVersion: 0.0.4
+  configChecksum: d1186b308062bbcd7a3581e06c8e135c
+  repoURL: https://github.com/flowaicom/flowai-sdk-go.git
+  installationURL: https://github.com/flowaicom/flowai-sdk-go
 features:
   go:
     additionalDependencies: 0.1.0

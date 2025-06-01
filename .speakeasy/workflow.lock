@@ -1,19 +1,21 @@
 speakeasyVersion: 1.554.1
 sources:
     FlowAI-OAS:
-        sourceNamespace: server
-        sourceRevisionDigest: sha256:cf87bf43b2243ec2946d9427fb7b83c61f0719965b476b88c83c231f14a1ab07
-        sourceBlobDigest: sha256:4b16d270412c56865c2ddd5647a24206e78e4aa6413f9fa7b0e000e9bc2200ac
+        sourceNamespace: flow-ai-oas
+        sourceRevisionDigest: sha256:d2f131594194db5fb27f9da7eb55b45e91e79f835abb9fb5b3e8be42bd12d48d
+        sourceBlobDigest: sha256:d011ce551b1a9bd61451a1dd330d5eb14acd1b3b4b585780906dc896e49a9464
         tags:
             - latest
+            - speakeasy-sdk-regen-1748768308
+            - 0.1.0
 targets:
     flow-ai:
         source: FlowAI-OAS
-        sourceNamespace: server
-        sourceRevisionDigest: sha256:cf87bf43b2243ec2946d9427fb7b83c61f0719965b476b88c83c231f14a1ab07
-        sourceBlobDigest: sha256:4b16d270412c56865c2ddd5647a24206e78e4aa6413f9fa7b0e000e9bc2200ac
+        sourceNamespace: flow-ai-oas
+        sourceRevisionDigest: sha256:d2f131594194db5fb27f9da7eb55b45e91e79f835abb9fb5b3e8be42bd12d48d
+        sourceBlobDigest: sha256:d011ce551b1a9bd61451a1dd330d5eb14acd1b3b4b585780906dc896e49a9464
         codeSamplesNamespace: flow-ai-oas-go-code-samples
-        codeSamplesRevisionDigest: sha256:94827131ee463e9c4af673b94de66f582f5979bfef3f51e31b7d0e7fe02e1f27
+        codeSamplesRevisionDigest: sha256:71a695f7bef462f49f7dff622e0e86b17278d4db002621e6fc1751d753e9ad8d
 workflow:
     workflowVersion: 1.0.0
     speakeasyVersion: latest
