@@ -1,0 +1,45 @@
+overlay: 1.0.0
+x-speakeasy-jsonpath: rfc9535
+info:
+  title: Speakeasy Modifications
+  version: 0.0.2
+  x-speakeasy-metadata:
+    after: ""
+    before: ""
+    type: speakeasy-modifications
+actions:
+  - target: $["paths"]["/validator-tasks/{validator_task_id}/submit"]["post"]
+    update:
+      x-speakeasy-name-override: submit
+    x-speakeasy-metadata:
+      after: sdk.validatorTasks.submit()
+      before: sdk.validatorTasks.submitValidatorTask()
+      created_at: 1748767599598
+      reviewed_at: 1748767686643
+      type: method-name
+  - target: $["paths"]["/auth/sdk/login"]["post"]
+    update:
+      x-speakeasy-group: auth
+    x-speakeasy-metadata:
+      after: sdk.auth.sdkLogin()
+      before: sdk.Authentication.sdkLogin()
+      created_at: 1748767599598
+      reviewed_at: 1748767686643
+      type: method-name
+  - target: $["paths"]["/clerk-webhooks/"]["post"]
+    update:
+      x-speakeasy-group: webhooks
+    x-speakeasy-metadata:
+      after: sdk.webhooks.handle()
+      before: sdk.clerk-webhooks.handle()
+      created_at: 1748767599598
+      type: method-name
+  - target: $["paths"]["/auth/validators/complete-signup"]["post"]
+    update:
+      x-speakeasy-group: auth
+    x-speakeasy-metadata:
+      after: sdk.auth.completeValidatorSignup()
+      before: sdk.Authentication.completeValidatorSignup()
+      created_at: 1748767599598
+      reviewed_at: 1748767686643
+      type: method-name

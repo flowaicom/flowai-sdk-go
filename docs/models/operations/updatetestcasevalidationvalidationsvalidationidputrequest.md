@@ -1,0 +1,10 @@
+# UpdateTestCaseValidationValidationsValidationIDPutRequest
+
+
+## Fields
+
+| Field                                                                                      | Type                                                                                       | Required                                                                                   | Description                                                                                |
+| ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ |
+| `ValidationID`                                                                             | *string*                                                                                   | :heavy_check_mark:                                                                         | N/A                                                                                        |
+| `CurrentUserPayload`                                                                       | *any*                                                                                      | :heavy_check_mark:                                                                         | N/A                                                                                        |
+| `TestCaseValidationUpdate`                                                                 | [components.TestCaseValidationUpdate](../../models/components/testcasevalidationupdate.md) | :heavy_check_mark:                                                                         | N/A                                                                                        |

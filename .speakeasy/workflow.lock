@@ -1,0 +1,37 @@
+speakeasyVersion: 1.554.1
+sources:
+    FlowAI-OAS:
+        sourceNamespace: server
+        sourceRevisionDigest: sha256:cf87bf43b2243ec2946d9427fb7b83c61f0719965b476b88c83c231f14a1ab07
+        sourceBlobDigest: sha256:4b16d270412c56865c2ddd5647a24206e78e4aa6413f9fa7b0e000e9bc2200ac
+        tags:
+            - latest
+targets:
+    flow-ai:
+        source: FlowAI-OAS
+        sourceNamespace: server
+        sourceRevisionDigest: sha256:cf87bf43b2243ec2946d9427fb7b83c61f0719965b476b88c83c231f14a1ab07
+        sourceBlobDigest: sha256:4b16d270412c56865c2ddd5647a24206e78e4aa6413f9fa7b0e000e9bc2200ac
+        codeSamplesNamespace: flow-ai-oas-go-code-samples
+        codeSamplesRevisionDigest: sha256:94827131ee463e9c4af673b94de66f582f5979bfef3f51e31b7d0e7fe02e1f27
+workflow:
+    workflowVersion: 1.0.0
+    speakeasyVersion: latest
+    sources:
+        FlowAI-OAS:
+            inputs:
+                - location: registry.speakeasyapi.dev/flow-ai/main/server:main
+            overlays:
+                - location: .speakeasy/speakeasy-modifications-overlay.yaml
+            registry:
+                location: registry.speakeasyapi.dev/flow-ai/main/flow-ai-oas
+    targets:
+        flow-ai:
+            target: go
+            source: FlowAI-OAS
+            codeSamples:
+                registry:
+                    location: registry.speakeasyapi.dev/flow-ai/main/flow-ai-oas-go-code-samples
+                labelOverride:
+                    fixedValue: Go (SDK)
+                blocking: false

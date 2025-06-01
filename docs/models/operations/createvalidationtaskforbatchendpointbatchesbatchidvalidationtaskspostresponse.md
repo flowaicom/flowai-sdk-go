@@ -1,0 +1,9 @@
+# CreateValidationTaskForBatchEndpointBatchesBatchIDValidationTasksPostResponse
+
+
+## Fields
+
+| Field                                                                                               | Type                                                                                                | Required                                                                                            | Description                                                                                         |
+| --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| `HTTPMeta`                                                                                          | [components.HTTPMetadata](../../models/components/httpmetadata.md)                                  | :heavy_check_mark:                                                                                  | N/A                                                                                                 |
+| `CreateValidationTaskResponse`                                                                      | [*components.CreateValidationTaskResponse](../../models/components/createvalidationtaskresponse.md) | :heavy_minus_sign:                                                                                  | Successful Response                                                                                 |

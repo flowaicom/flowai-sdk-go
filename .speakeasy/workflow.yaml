@@ -1,0 +1,20 @@
+workflowVersion: 1.0.0
+speakeasyVersion: latest
+sources:
+    FlowAI-OAS:
+        inputs:
+            - location: registry.speakeasyapi.dev/flow-ai/main/server:main
+        overlays:
+            - location: .speakeasy/speakeasy-modifications-overlay.yaml
+        registry:
+            location: registry.speakeasyapi.dev/flow-ai/main/flow-ai-oas
+targets:
+    flow-ai:
+        target: go
+        source: FlowAI-OAS
+        codeSamples:
+            registry:
+                location: registry.speakeasyapi.dev/flow-ai/main/flow-ai-oas-go-code-samples
+            labelOverride:
+                fixedValue: Go (SDK)
+            blocking: false

@@ -1,0 +1,20 @@
+# TestCaseRead
+
+Schema for reading/returning test case data
+
+
+## Fields
+
+| Field                                                                    | Type                                                                     | Required                                                                 | Description                                                              |
+| ------------------------------------------------------------------------ | ------------------------------------------------------------------------ | ------------------------------------------------------------------------ | ------------------------------------------------------------------------ |
+| `Name`                                                                   | **string*                                                                | :heavy_minus_sign:                                                       | N/A                                                                      |
+| `Description`                                                            | **string*                                                                | :heavy_minus_sign:                                                       | N/A                                                                      |
+| `ExpectedOutput`                                                         | *string*                                                                 | :heavy_check_mark:                                                       | N/A                                                                      |
+| `Status`                                                                 | *string*                                                                 | :heavy_check_mark:                                                       | N/A                                                                      |
+| `IsActive`                                                               | **bool*                                                                  | :heavy_minus_sign:                                                       | N/A                                                                      |
+| `ID`                                                                     | *string*                                                                 | :heavy_check_mark:                                                       | N/A                                                                      |
+| `UserID`                                                                 | *string*                                                                 | :heavy_check_mark:                                                       | N/A                                                                      |
+| `CreatedAt`                                                              | [time.Time](https://pkg.go.dev/time#Time)                                | :heavy_check_mark:                                                       | N/A                                                                      |
+| `UpdatedAt`                                                              | [time.Time](https://pkg.go.dev/time#Time)                                | :heavy_check_mark:                                                       | N/A                                                                      |
+| `Trajectory`                                                             | [][components.TrajectoryItem](../../models/components/trajectoryitem.md) | :heavy_minus_sign:                                                       | N/A                                                                      |
+| `ValidationCriteria`                                                     | []*string*                                                               | :heavy_minus_sign:                                                       | N/A                                                                      |

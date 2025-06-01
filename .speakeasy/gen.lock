@@ -1,0 +1,1070 @@
+lockVersion: 2.0.0
+id: edac67c9-b0c9-4993-be03-c53a91e2035d
+management:
+  docChecksum: 9d58301ed8d6ba98d55bf93f53f339fb
+  docVersion: 0.1.0
+  speakeasyVersion: 1.554.1
+  generationVersion: 2.616.1
+  releaseVersion: 0.0.3
+  configChecksum: b14386341de52da85f4492bc4aec3fa1
+features:
+  go:
+    additionalDependencies: 0.1.0
+    constsAndDefaults: 0.1.12
+    core: 3.7.5
+    defaultEnabledRetries: 0.2.0
+    devContainers: 2.90.0
+    envVarSecurityUsage: 0.3.2
+    flattening: 2.81.1
+    getRequestBodies: 2.81.1
+    globalSecurityCallbacks: 0.1.0
+    globalServerURLs: 2.82.3
+    groups: 2.81.2
+    intellisenseMarkdownSupport: 0.1.0
+    nameOverrides: 2.81.2
+    nullables: 0.1.1
+    responseFormat: 0.1.2
+    retries: 2.83.2
+    sdkHooks: 0.2.0
+    unions: 2.85.10
+generatedFiles:
+  - .devcontainer/README.md
+  - .devcontainer/devcontainer.json
+  - .devcontainer/setup.sh
+  - .gitattributes
+  - /models/apierrors/httpvalidationerror.go
+  - /models/components/apikeycreate.go
+  - /models/components/apikeycreateresponse.go
+  - /models/components/apikeyinfo.go
+  - /models/components/apikeyupdate.go
+  - /models/components/batchread.go
+  - /models/components/batchstatusread.go
+  - /models/components/bodyupdatetestcasetestcasestestcaseidput.go
+  - /models/components/createvalidationtaskresponse.go
+  - /models/components/datasetgenerationrequest.go
+  - /models/components/datasetitemlistresponse.go
+  - /models/components/datasetitemread.go
+  - /models/components/datasetread.go
+  - /models/components/fileupload.go
+  - /models/components/getvalidationtaskforbatchresponseschema.go
+  - /models/components/httpmetadata.go
+  - /models/components/jobbatchgenerationresponse.go
+  - /models/components/jobcancelresponse.go
+  - /models/components/jobcreate.go
+  - /models/components/jobdatasetgenerationresponse.go
+  - /models/components/joblistresponse.go
+  - /models/components/jobresponse.go
+  - /models/components/jwtpayload.go
+  - /models/components/jwttoken.go
+  - /models/components/listapikeyitem.go
+  - /models/components/listapikeysresponse.go
+  - /models/components/message.go
+  - /models/components/messagestepcreate.go
+  - /models/components/paginatedresponsetestcasevalidationread.go
+  - /models/components/paginationdetails.go
+  - /models/components/paginationinfo.go
+  - /models/components/prefectflowruninfo.go
+  - /models/components/prefectwebhookpayload.go
+  - /models/components/projectarchiveresponse.go
+  - /models/components/projectcreate.go
+  - /models/components/projectlistresponse.go
+  - /models/components/projectresponse.go
+  - /models/components/projectupdate.go
+  - /models/components/projectvalidatorcreate.go
+  - /models/components/projectvalidatorlistresponse.go
+  - /models/components/projectvalidatorresponse.go
+  - /models/components/stagecreationrequest.go
+  - /models/components/stagedetailsresponse.go
+  - /models/components/stagefiletypeenum.go
+  - /models/components/stagelistresponse.go
+  - /models/components/stageupdatepayload.go
+  - /models/components/testcasecreate.go
+  - /models/components/testcaseread.go
+  - /models/components/testcaseupdate.go
+  - /models/components/testcasevalidationcreate.go
+  - /models/components/testcasevalidationread.go
+  - /models/components/testcasevalidationupdate.go
+  - /models/components/toolcall.go
+  - /models/components/toolcallstepcreate.go
+  - /models/components/tooloutput.go
+  - /models/components/trajectoryitem.go
+  - /models/components/userread.go
+  - /models/components/userroleupdate.go
+  - /models/components/userupdate.go
+  - /models/components/validationerror.go
+  - /models/components/validationitemfeedback.go
+  - /models/components/validationitemfeedbackinput.go
+  - /models/components/validationtaskread.go
+  - /models/components/validatorcompletesignuprequest.go
+  - /models/components/validatortaskdetailschema.go
+  - /models/components/validatorurlinfo.go
+  - /models/components/validatorverifyaccessrequest.go
+  - /models/operations/addprojectvalidatorprojectsprojectidvalidatorspost.go
+  - /models/operations/archiveprojectprojectsprojectidarchivepost.go
+  - /models/operations/canceljobbyidjobsjobidcancelpost.go
+  - /models/operations/checkvalidationtaskstatusvalidationtasksvalidationtaskidget.go
+  - /models/operations/completevalidatorsignupauthvalidatorscompletesignuppost.go
+  - /models/operations/createapikeyforuserapikeyspost.go
+  - /models/operations/createjobforprojectprojectsprojectidjobspost.go
+  - /models/operations/createprojectprojectspost.go
+  - /models/operations/createstagesforprojectstagespost.go
+  - /models/operations/createtestcasetestcasespost.go
+  - /models/operations/createtestcasevalidationvalidationspost.go
+  - /models/operations/createvalidationtaskforbatchendpointbatchesbatchidvalidationtaskspost.go
+  - /models/operations/deletebatchbyidbatchesbatchiddelete.go
+  - /models/operations/deletedatasetdatasetsdatasetiddelete.go
+  - /models/operations/deleteprojectprojectsprojectiddelete.go
+  - /models/operations/deletestagestagesstageiddelete.go
+  - /models/operations/deletetestcasetestcasestestcaseiddelete.go
+  - /models/operations/deletevalidationvalidationsvalidationiddelete.go
+  - /models/operations/edittestcasevalidationvalidatortasksvalidatortaskidvalidationsvalidationidput.go
+  - /models/operations/generatebatchforjobjobsjobidgeneratebatchpost.go
+  - /models/operations/generatedatasetforjobjobsjobidgeneratedatasetpost.go
+  - /models/operations/getbatchbyidbatchesbatchidget.go
+  - /models/operations/getbatchstatusendpointbatchesbatchidstatusget.go
+  - /models/operations/getbatchtestcasesbatchesbatchidtestcasesget.go
+  - /models/operations/getcurrentuserbasicinfousersmebasicinfoget.go
+  - /models/operations/getdatasetitemsdatasetsdatasetiditemsget.go
+  - /models/operations/gethealthstatus.go
+  - /models/operations/getjobdetailsjobsjobidget.go
+  - /models/operations/getprojectdatasetprojectsprojectiddatasetget.go
+  - /models/operations/getprojectprojectsprojectidget.go
+  - /models/operations/getsinglevalidationfrombatchtestcasestestcaseidvalidationget.go
+  - /models/operations/getstagedetailsstagesstageidget.go
+  - /models/operations/gettestcasetestcasestestcaseidget.go
+  - /models/operations/getvalidationsforbatchbatchesbatchidvalidationsget.go
+  - /models/operations/getvalidationtaskforbatchendpointbatchesbatchidvalidationtaskget.go
+  - /models/operations/getvalidationvalidationsvalidationidget.go
+  - /models/operations/handleclerkwebhookendpointclerkwebhookspost.go
+  - /models/operations/headhealthstatus.go
+  - /models/operations/listjobbatchesforjobjobsjobidbatchesget.go
+  - /models/operations/listjobsforprojectprojectsprojectidjobsget.go
+  - /models/operations/listmybatchesbatchesmineget.go
+  - /models/operations/listprojectsprojectsget.go
+  - /models/operations/listprojectvalidatorsprojectsprojectidvalidatorsget.go
+  - /models/operations/liststagesstagesget.go
+  - /models/operations/listtestcasestestcasesget.go
+  - /models/operations/listuserapikeysapikeysget.go
+  - /models/operations/listvalidationsvalidationsget.go
+  - /models/operations/loadtestcasesforvalidatorvalidatortasksvalidatortaskidtestcasesget.go
+  - /models/operations/pingstagesstagespingget.go
+  - /models/operations/prefectwebhookintegrationsprefectwebhookpost.go
+  - /models/operations/readusersmeusersmeget.go
+  - /models/operations/removeprojectvalidatorprojectsprojectidvalidatorsvalidatoriddelete.go
+  - /models/operations/revokeapikeyapikeyskeyiddelete.go
+  - /models/operations/rootget.go
+  - /models/operations/sdkloginauthsdkloginpost.go
+  - /models/operations/submittestcasevalidationvalidatortasksvalidatortaskidvalidationspost.go
+  - /models/operations/submitvalidatortaskvalidatortasksvalidatortaskidsubmitpost.go
+  - /models/operations/triggerpipelinefromstagesjobstriggerpipelinefromstagespost.go
+  - /models/operations/updateapikeydetailsapikeyskeyidput.go
+  - /models/operations/updateprojectprojectsprojectidpatch.go
+  - /models/operations/updatestagestagesstageidput.go
+  - /models/operations/updatetestcasetestcasestestcaseidput.go
+  - /models/operations/updatetestcasevalidationvalidationsvalidationidput.go
+  - /models/operations/updateusermeusersmepatch.go
+  - /models/operations/updateuserroleusersrolepatch.go
+  - /models/operations/verifyvalidatoraccessauthvalidatorsverifyaccesspost.go
+  - USAGE.md
+  - apikeys.go
+  - auth.go
+  - authentication.go
+  - batches.go
+  - datasets.go
+  - docs/models/apierrors/httpvalidationerror.md
+  - docs/models/components/apikeycreate.md
+  - docs/models/components/apikeycreateresponse.md
+  - docs/models/components/apikeyinfo.md
+  - docs/models/components/apikeyupdate.md
+  - docs/models/components/batchread.md
+  - docs/models/components/batchstatusread.md
+  - docs/models/components/bodyupdatetestcasetestcasestestcaseidput.md
+  - docs/models/components/createvalidationtaskresponse.md
+  - docs/models/components/datasetgenerationrequest.md
+  - docs/models/components/datasetitemlistresponse.md
+  - docs/models/components/datasetitemread.md
+  - docs/models/components/datasetread.md
+  - docs/models/components/fileupload.md
+  - docs/models/components/getvalidationtaskforbatchresponseschema.md
+  - docs/models/components/httpmetadata.md
+  - docs/models/components/itemtype.md
+  - docs/models/components/jobbatchgenerationresponse.md
+  - docs/models/components/jobcancelresponse.md
+  - docs/models/components/jobcreate.md
+  - docs/models/components/jobdatasetgenerationresponse.md
+  - docs/models/components/joblistresponse.md
+  - docs/models/components/jobresponse.md
+  - docs/models/components/jwtpayload.md
+  - docs/models/components/jwttoken.md
+  - docs/models/components/listapikeyitem.md
+  - docs/models/components/listapikeysresponse.md
+  - docs/models/components/loc.md
+  - docs/models/components/message.md
+  - docs/models/components/messagestepcreate.md
+  - docs/models/components/paginatedresponsetestcasevalidationread.md
+  - docs/models/components/paginationdetails.md
+  - docs/models/components/paginationinfo.md
+  - docs/models/components/prefectflowruninfo.md
+  - docs/models/components/prefectwebhookpayload.md
+  - docs/models/components/projectarchiveresponse.md
+  - docs/models/components/projectcreate.md
+  - docs/models/components/projectlistresponse.md
+  - docs/models/components/projectresponse.md
+  - docs/models/components/projectupdate.md
+  - docs/models/components/projectvalidatorcreate.md
+  - docs/models/components/projectvalidatorlistresponse.md
+  - docs/models/components/projectvalidatorresponse.md
+  - docs/models/components/role.md
+  - docs/models/components/stagecreationrequest.md
+  - docs/models/components/stagedetailsresponse.md
+  - docs/models/components/stagefiletypeenum.md
+  - docs/models/components/stagelistresponse.md
+  - docs/models/components/stageupdatepayload.md
+  - docs/models/components/testcasecreate.md
+  - docs/models/components/testcaseread.md
+  - docs/models/components/testcaseupdate.md
+  - docs/models/components/testcasevalidationcreate.md
+  - docs/models/components/testcasevalidationread.md
+  - docs/models/components/testcasevalidationupdate.md
+  - docs/models/components/toolcall.md
+  - docs/models/components/toolcallstepcreate.md
+  - docs/models/components/tooloutput.md
+  - docs/models/components/trajectory.md
+  - docs/models/components/trajectoryitem.md
+  - docs/models/components/userread.md
+  - docs/models/components/userroleupdate.md
+  - docs/models/components/userupdate.md
+  - docs/models/components/validationerror.md
+  - docs/models/components/validationitemfeedback.md
+  - docs/models/components/validationitemfeedbackinput.md
+  - docs/models/components/validationtaskread.md
+  - docs/models/components/validatorcompletesignuprequest.md
+  - docs/models/components/validatortaskdetailschema.md
+  - docs/models/components/validatorurlinfo.md
+  - docs/models/components/validatorverifyaccessrequest.md
+  - docs/models/operations/addprojectvalidatorprojectsprojectidvalidatorspostrequest.md
+  - docs/models/operations/addprojectvalidatorprojectsprojectidvalidatorspostresponse.md
+  - docs/models/operations/archiveprojectprojectsprojectidarchivepostrequest.md
+  - docs/models/operations/archiveprojectprojectsprojectidarchivepostresponse.md
+  - docs/models/operations/canceljobbyidjobsjobidcancelpostrequest.md
+  - docs/models/operations/canceljobbyidjobsjobidcancelpostresponse.md
+  - docs/models/operations/checkvalidationtaskstatusvalidationtasksvalidationtaskidgetrequest.md
+  - docs/models/operations/checkvalidationtaskstatusvalidationtasksvalidationtaskidgetresponse.md
+  - docs/models/operations/completevalidatorsignupauthvalidatorscompletesignuppostresponse.md
+  - docs/models/operations/createapikeyforuserapikeyspostresponse.md
+  - docs/models/operations/createjobforprojectprojectsprojectidjobspostrequest.md
+  - docs/models/operations/createjobforprojectprojectsprojectidjobspostresponse.md
+  - docs/models/operations/createprojectprojectspostresponse.md
+  - docs/models/operations/createstagesforprojectstagespostresponse.md
+  - docs/models/operations/createtestcasetestcasespostrequest.md
+  - docs/models/operations/createtestcasetestcasespostresponse.md
+  - docs/models/operations/createtestcasevalidationvalidationspostrequest.md
+  - docs/models/operations/createtestcasevalidationvalidationspostresponse.md
+  - docs/models/operations/createvalidationtaskforbatchendpointbatchesbatchidvalidationtaskspostrequest.md
+  - docs/models/operations/createvalidationtaskforbatchendpointbatchesbatchidvalidationtaskspostresponse.md
+  - docs/models/operations/deletebatchbyidbatchesbatchiddeleterequest.md
+  - docs/models/operations/deletebatchbyidbatchesbatchiddeleteresponse.md
+  - docs/models/operations/deletedatasetdatasetsdatasetiddeleterequest.md
+  - docs/models/operations/deletedatasetdatasetsdatasetiddeleteresponse.md
+  - docs/models/operations/deleteprojectprojectsprojectiddeleterequest.md
+  - docs/models/operations/deleteprojectprojectsprojectiddeleteresponse.md
+  - docs/models/operations/deletestagestagesstageiddeleterequest.md
+  - docs/models/operations/deletestagestagesstageiddeleteresponse.md
+  - docs/models/operations/deletetestcasetestcasestestcaseiddeleterequest.md
+  - docs/models/operations/deletetestcasetestcasestestcaseiddeleteresponse.md
+  - docs/models/operations/deletevalidationvalidationsvalidationiddeleterequest.md
+  - docs/models/operations/deletevalidationvalidationsvalidationiddeleteresponse.md
+  - docs/models/operations/edittestcasevalidationvalidatortasksvalidatortaskidvalidationsvalidationidputrequest.md
+  - docs/models/operations/edittestcasevalidationvalidatortasksvalidatortaskidvalidationsvalidationidputresponse.md
+  - docs/models/operations/generatebatchforjobjobsjobidgeneratebatchpostrequest.md
+  - docs/models/operations/generatebatchforjobjobsjobidgeneratebatchpostresponse.md
+  - docs/models/operations/generatedatasetforjobjobsjobidgeneratedatasetpostrequest.md
+  - docs/models/operations/generatedatasetforjobjobsjobidgeneratedatasetpostresponse.md
+  - docs/models/operations/getbatchbyidbatchesbatchidgetrequest.md
+  - docs/models/operations/getbatchbyidbatchesbatchidgetresponse.md
+  - docs/models/operations/getbatchstatusendpointbatchesbatchidstatusgetrequest.md
+  - docs/models/operations/getbatchstatusendpointbatchesbatchidstatusgetresponse.md
+  - docs/models/operations/getbatchtestcasesbatchesbatchidtestcasesgetrequest.md
+  - docs/models/operations/getbatchtestcasesbatchesbatchidtestcasesgetresponse.md
+  - docs/models/operations/getcurrentuserbasicinfousersmebasicinfogetresponse.md
+  - docs/models/operations/getdatasetitemsdatasetsdatasetiditemsgetrequest.md
+  - docs/models/operations/getdatasetitemsdatasetsdatasetiditemsgetresponse.md
+  - docs/models/operations/gethealthstatusresponse.md
+  - docs/models/operations/getjobdetailsjobsjobidgetrequest.md
+  - docs/models/operations/getjobdetailsjobsjobidgetresponse.md
+  - docs/models/operations/getprojectdatasetprojectsprojectiddatasetgetrequest.md
+  - docs/models/operations/getprojectdatasetprojectsprojectiddatasetgetresponse.md
+  - docs/models/operations/getprojectprojectsprojectidgetrequest.md
+  - docs/models/operations/getprojectprojectsprojectidgetresponse.md
+  - docs/models/operations/getsinglevalidationfrombatchtestcasestestcaseidvalidationgetrequest.md
+  - docs/models/operations/getsinglevalidationfrombatchtestcasestestcaseidvalidationgetresponse.md
+  - docs/models/operations/getstagedetailsstagesstageidgetrequest.md
+  - docs/models/operations/getstagedetailsstagesstageidgetresponse.md
+  - docs/models/operations/gettestcasetestcasestestcaseidgetrequest.md
+  - docs/models/operations/gettestcasetestcasestestcaseidgetresponse.md
+  - docs/models/operations/getvalidationsforbatchbatchesbatchidvalidationsgetrequest.md
+  - docs/models/operations/getvalidationsforbatchbatchesbatchidvalidationsgetresponse.md
+  - docs/models/operations/getvalidationtaskforbatchendpointbatchesbatchidvalidationtaskgetrequest.md
+  - docs/models/operations/getvalidationtaskforbatchendpointbatchesbatchidvalidationtaskgetresponse.md
+  - docs/models/operations/getvalidationvalidationsvalidationidgetrequest.md
+  - docs/models/operations/getvalidationvalidationsvalidationidgetresponse.md
+  - docs/models/operations/handleclerkwebhookendpointclerkwebhookspostrequest.md
+  - docs/models/operations/handleclerkwebhookendpointclerkwebhookspostresponse.md
+  - docs/models/operations/headhealthstatusresponse.md
+  - docs/models/operations/listjobbatchesforjobjobsjobidbatchesgetrequest.md
+  - docs/models/operations/listjobbatchesforjobjobsjobidbatchesgetresponse.md
+  - docs/models/operations/listjobsforprojectprojectsprojectidjobsgetrequest.md
+  - docs/models/operations/listjobsforprojectprojectsprojectidjobsgetresponse.md
+  - docs/models/operations/listmybatchesbatchesminegetresponse.md
+  - docs/models/operations/listprojectsprojectsgetrequest.md
+  - docs/models/operations/listprojectsprojectsgetresponse.md
+  - docs/models/operations/listprojectvalidatorsprojectsprojectidvalidatorsgetrequest.md
+  - docs/models/operations/listprojectvalidatorsprojectsprojectidvalidatorsgetresponse.md
+  - docs/models/operations/liststagesstagesgetrequest.md
+  - docs/models/operations/liststagesstagesgetresponse.md
+  - docs/models/operations/listtestcasestestcasesgetrequest.md
+  - docs/models/operations/listtestcasestestcasesgetresponse.md
+  - docs/models/operations/listuserapikeysapikeysgetrequest.md
+  - docs/models/operations/listuserapikeysapikeysgetresponse.md
+  - docs/models/operations/listvalidationsvalidationsgetrequest.md
+  - docs/models/operations/listvalidationsvalidationsgetresponse.md
+  - docs/models/operations/loadtestcasesforvalidatorvalidatortasksvalidatortaskidtestcasesgetrequest.md
+  - docs/models/operations/loadtestcasesforvalidatorvalidatortasksvalidatortaskidtestcasesgetresponse.md
+  - docs/models/operations/option.md
+  - docs/models/operations/pingstagesstagespinggetresponse.md
+  - docs/models/operations/prefectwebhookintegrationsprefectwebhookpostrequest.md
+  - docs/models/operations/prefectwebhookintegrationsprefectwebhookpostresponse.md
+  - docs/models/operations/readusersmeusersmegetresponse.md
+  - docs/models/operations/removeprojectvalidatorprojectsprojectidvalidatorsvalidatoriddeleterequest.md
+  - docs/models/operations/removeprojectvalidatorprojectsprojectidvalidatorsvalidatoriddeleteresponse.md
+  - docs/models/operations/revokeapikeyapikeyskeyiddeleterequest.md
+  - docs/models/operations/revokeapikeyapikeyskeyiddeleteresponse.md
+  - docs/models/operations/rootgetresponse.md
+  - docs/models/operations/sdkloginauthsdkloginpostresponse.md
+  - docs/models/operations/submittestcasevalidationvalidatortasksvalidatortaskidvalidationspostrequest.md
+  - docs/models/operations/submittestcasevalidationvalidatortasksvalidatortaskidvalidationspostresponse.md
+  - docs/models/operations/submitvalidatortaskvalidatortasksvalidatortaskidsubmitpostrequest.md
+  - docs/models/operations/submitvalidatortaskvalidatortasksvalidatortaskidsubmitpostresponse.md
+  - docs/models/operations/triggerpipelinefromstagesjobstriggerpipelinefromstagespostrequest.md
+  - docs/models/operations/triggerpipelinefromstagesjobstriggerpipelinefromstagespostresponse.md
+  - docs/models/operations/updateapikeydetailsapikeyskeyidputrequest.md
+  - docs/models/operations/updateapikeydetailsapikeyskeyidputresponse.md
+  - docs/models/operations/updateprojectprojectsprojectidpatchrequest.md
+  - docs/models/operations/updateprojectprojectsprojectidpatchresponse.md
+  - docs/models/operations/updatestagestagesstageidputrequest.md
+  - docs/models/operations/updatestagestagesstageidputresponse.md
+  - docs/models/operations/updatetestcasetestcasestestcaseidputrequest.md
+  - docs/models/operations/updatetestcasetestcasestestcaseidputresponse.md
+  - docs/models/operations/updatetestcasevalidationvalidationsvalidationidputrequest.md
+  - docs/models/operations/updatetestcasevalidationvalidationsvalidationidputresponse.md
+  - docs/models/operations/updateusermeusersmepatchrequest.md
+  - docs/models/operations/updateusermeusersmepatchresponse.md
+  - docs/models/operations/updateuserroleusersrolepatchrequest.md
+  - docs/models/operations/updateuserroleusersrolepatchresponse.md
+  - docs/models/operations/verifyvalidatoraccessauthvalidatorsverifyaccesspostresponse.md
+  - docs/sdks/apikeys/README.md
+  - docs/sdks/auth/README.md
+  - docs/sdks/authentication/README.md
+  - docs/sdks/batches/README.md
+  - docs/sdks/datasets/README.md
+  - docs/sdks/flowai/README.md
+  - docs/sdks/health/README.md
+  - docs/sdks/integrations/README.md
+  - docs/sdks/jobs/README.md
+  - docs/sdks/projects/README.md
+  - docs/sdks/root/README.md
+  - docs/sdks/stages/README.md
+  - docs/sdks/testcases/README.md
+  - docs/sdks/users/README.md
+  - docs/sdks/validations/README.md
+  - docs/sdks/validationtasks/README.md
+  - docs/sdks/validatortasks/README.md
+  - docs/sdks/webhooks/README.md
+  - flowai.go
+  - go.mod
+  - health.go
+  - integrations.go
+  - internal/config/sdkconfiguration.go
+  - internal/hooks/hooks.go
+  - internal/utils/contenttype.go
+  - internal/utils/env.go
+  - internal/utils/form.go
+  - internal/utils/headers.go
+  - internal/utils/json.go
+  - internal/utils/pathparams.go
+  - internal/utils/queryparams.go
+  - internal/utils/requestbody.go
+  - internal/utils/retries.go
+  - internal/utils/security.go
+  - internal/utils/utils.go
+  - jobs.go
+  - models/apierrors/apierror.go
+  - models/operations/options.go
+  - projects.go
+  - retry/config.go
+  - root.go
+  - stages.go
+  - testcases.go
+  - types/bigint.go
+  - types/date.go
+  - types/datetime.go
+  - types/decimal.go
+  - types/pointers.go
+  - users.go
+  - validations.go
+  - validationtasks.go
+  - validatortasks.go
+  - webhooks.go
+examples:
+  get_health_status:
+    speakeasy-default-get-health-status:
+      responses:
+        "200":
+          application/json: {"key": "<value>", "key1": "<value>"}
+  head_health_status: {}
+  handle_clerk_webhook_endpoint_clerk_webhooks__post:
+    speakeasy-default-handle-clerk-webhook-endpoint-clerk-webhooks-post:
+      responses:
+        "200":
+          application/json: "<value>"
+        "422":
+          application/json: {}
+  read_users_me_users_me_get:
+    speakeasy-default-read-users-me-users-me-get:
+      responses:
+        "200":
+          application/json: {"id": "6cbf17db-b73d-4ce2-8a6b-f3484dd04ea4", "is_active": true, "created_at": "2023-12-28T07:09:11.265Z", "updated_at": "2025-09-01T16:13:46.071Z"}
+  update_user_me_users_me_patch:
+    speakeasy-default-update-user-me-users-me-patch:
+      parameters:
+        query:
+          args: "<value>"
+          kwargs: "<value>"
+      requestBody:
+        application/json: {}
+      responses:
+        "200":
+          application/json: {"id": "7216e826-a50e-4227-805f-7f20e3b640da", "is_active": true, "created_at": "2025-04-11T23:25:42.850Z", "updated_at": "2025-07-30T17:03:01.562Z"}
+        "422":
+          application/json: {}
+  update_user_role_users_role_patch:
+    speakeasy-default-update-user-role-users-role-patch:
+      parameters:
+        query:
+          args: "<value>"
+          kwargs: "<value>"
+      requestBody:
+        application/json: {"role": "user"}
+      responses:
+        "422":
+          application/json: {}
+  get_current_user_basic_info_users_me_basic_info_get:
+    speakeasy-default-get-current-user-basic-info-users-me-basic-info-get:
+      responses:
+        "200":
+          application/json: "<value>"
+  list_test_cases_test_cases__get:
+    speakeasy-default-list-test-cases-test-cases-get:
+      parameters:
+        query:
+          skip: 0
+          limit: 100
+          sort_order: "asc"
+      requestBody:
+        application/json: {"sub": "<value>"}
+      responses:
+        "200":
+          application/json: [{"expected_output": "<value>", "status": "<value>", "is_active": true, "id": "0f0ff841-4219-4bab-a3f8-f403d0be5894", "user_id": "1e343e94-1106-458b-9f5e-063da8eb7716", "created_at": "2025-11-14T13:45:00.846Z", "updated_at": "2024-02-26T09:05:16.623Z"}, {"expected_output": "<value>", "status": "<value>", "is_active": true, "id": "0f0ff841-4219-4bab-a3f8-f403d0be5894", "user_id": "1e343e94-1106-458b-9f5e-063da8eb7716", "created_at": "2025-11-14T13:45:00.846Z", "updated_at": "2024-02-26T09:05:16.623Z"}, {"expected_output": "<value>", "status": "<value>", "is_active": true, "id": "0f0ff841-4219-4bab-a3f8-f403d0be5894", "user_id": "1e343e94-1106-458b-9f5e-063da8eb7716", "created_at": "2025-11-14T13:45:00.846Z", "updated_at": "2024-02-26T09:05:16.623Z"}]
+        "422":
+          application/json: {}
+  create_test_case_test_cases__post:
+    speakeasy-default-create-test-case-test-cases-post:
+      parameters:
+        query:
+          api_key_user_id: "mock_api_key_user_id"
+      requestBody:
+        application/json: {"expected_output": "<value>", "status": "<value>", "is_active": true}
+      responses:
+        "201":
+          application/json: {"expected_output": "<value>", "status": "<value>", "is_active": true, "id": "2471088b-09d7-4244-b41b-b69bdce281bb", "user_id": "1bf2aa01-de69-44f8-9a8e-b7a98056413b", "created_at": "2023-12-21T10:54:52.140Z", "updated_at": "2025-02-26T00:48:37.455Z"}
+        "422":
+          application/json: {}
+  get_test_case_test_cases__test_case_id__get:
+    speakeasy-default-get-test-case-test-cases-test-case-id-get:
+      parameters:
+        path:
+          test_case_id: "ba925364-fbf9-4671-8f4e-768dba5a68a5"
+      requestBody:
+        application/json: {"sub": "<value>"}
+      responses:
+        "200":
+          application/json: {"expected_output": "<value>", "status": "<value>", "is_active": true, "id": "1a6923cc-c1d7-4808-adaf-656df91a7dff", "user_id": "f2fb29a8-e13c-4169-9506-a6e0d8627a97", "created_at": "2024-08-15T00:41:33.369Z", "updated_at": "2025-01-20T07:32:09.831Z"}
+        "422":
+          application/json: {}
+  update_test_case_test_cases__test_case_id__put:
+    speakeasy-default-update-test-case-test-cases-test-case-id-put:
+      parameters:
+        path:
+          test_case_id: "729a6e02-489b-48c0-a515-9fcf8f007759"
+      requestBody:
+        application/json: {"test_case_in": {}, "current_user_payload": {"sub": "<value>"}}
+      responses:
+        "200":
+          application/json: {"expected_output": "<value>", "status": "<value>", "is_active": true, "id": "4e8d5000-90d5-4854-8a0e-f3dcd514d015", "user_id": "c35269e1-b58d-4464-bf32-4ac971bef5fc", "created_at": "2023-11-22T20:23:39.049Z", "updated_at": "2023-06-24T15:49:38.326Z"}
+        "422":
+          application/json: {}
+  delete_test_case_test_cases__test_case_id__delete:
+    speakeasy-default-delete-test-case-test-cases-test-case-id-delete:
+      parameters:
+        path:
+          test_case_id: "7d408309-6274-42fd-8416-ea3e553e02ae"
+      requestBody:
+        application/json: {"sub": "<value>"}
+      responses:
+        "422":
+          application/json: {}
+  get_single_validation_from_batch_test_cases__test_case_id__validation_get:
+    speakeasy-default-get-single-validation-from-batch-test-cases-test-case-id-validation-get:
+      parameters:
+        path:
+          test_case_id: "187fe75d-c338-4707-b27a-cf7628ebe85e"
+      responses:
+        "200":
+          application/json: "<value>"
+        "422":
+          application/json: {}
+  list_validations_validations_get:
+    speakeasy-default-list-validations-validations-get:
+      parameters:
+        query:
+          current_user_payload: "<value>"
+          skip: 0
+          limit: 100
+          sort_order: "asc"
+      responses:
+        "200":
+          application/json: {"items": [{"is_accepted": true, "id": "3cd458f9-aaeb-46f5-840d-a7705ddb310a", "created_at": "2025-11-19T17:11:22.053Z", "updated_at": "2024-02-12T07:13:03.392Z", "test_case_id": "e3409d89-434d-4ac6-a0ad-1c2a4aab8bb2", "validation_task_id": "1fce88fe-1333-4eff-82f6-d164cde93539", "validator_task_id": "ce43263b-dcf8-45b4-9235-8d06ee5eea98", "validator_user_id": "7fc6a576-645f-4434-abca-5b329e644cb7"}, {"is_accepted": true, "id": "3cd458f9-aaeb-46f5-840d-a7705ddb310a", "created_at": "2025-11-19T17:11:22.053Z", "updated_at": "2024-02-12T07:13:03.392Z", "test_case_id": "e3409d89-434d-4ac6-a0ad-1c2a4aab8bb2", "validation_task_id": "1fce88fe-1333-4eff-82f6-d164cde93539", "validator_task_id": "ce43263b-dcf8-45b4-9235-8d06ee5eea98", "validator_user_id": "7fc6a576-645f-4434-abca-5b329e644cb7"}], "total": 50295, "page": 762906, "pages": 611841, "has_more": false}
+        "422":
+          application/json: {}
+  create_test_case_validation_validations_post:
+    speakeasy-default-create-test-case-validation-validations-post:
+      parameters:
+        query:
+          current_user_payload: "<value>"
+      requestBody:
+        application/json: {"is_accepted": false, "test_case_id": "03bf150e-1555-423d-8ce5-70ef98f910af", "validation_task_id": "5abee567-425f-48c1-a294-4996e9cf2297", "validator_task_id": "f269e0d1-e045-4529-b201-55c2a58afc5d"}
+      responses:
+        "201":
+          application/json: {"is_accepted": false, "id": "a4782be5-6471-4dd8-b53c-bac2782fada3", "created_at": "2024-08-27T17:05:02.096Z", "updated_at": "2023-03-30T04:53:22.189Z", "test_case_id": "3a25f4e1-a064-45e5-b43f-05030d5ed50a", "validation_task_id": "aa44486b-5c05-43f9-8a2b-4e24e472142f", "validator_task_id": "ada23550-fd68-4cb9-a596-10b1ad73c83c", "validator_user_id": "758ef620-12c7-46ff-b27b-fc941adf0fa7"}
+        "422":
+          application/json: {}
+  get_validation_validations__validation_id__get:
+    speakeasy-default-get-validation-validations-validation-id-get:
+      parameters:
+        path:
+          validation_id: "0f5fcfe8-364c-45b7-a819-16cc72d8859e"
+        query:
+          current_user_payload: "<value>"
+      responses:
+        "200":
+          application/json: {"is_accepted": false, "id": "edd02744-af19-485d-aa9b-1d7865ee915b", "created_at": "2025-05-19T00:49:45.155Z", "updated_at": "2025-05-16T02:14:50.099Z", "test_case_id": "b3ed5dc8-24de-41b2-be03-1dedd90cb918", "validation_task_id": "50bc9b75-2e8b-4420-90b1-3dcc54d73e79", "validator_task_id": "acaa74db-071b-499d-b9c0-4040af2643ac", "validator_user_id": "a499ba0c-644c-44ed-94f3-3f9e22ae6204"}
+        "422":
+          application/json: {}
+  update_test_case_validation_validations__validation_id__put:
+    speakeasy-default-update-test-case-validation-validations-validation-id-put:
+      parameters:
+        path:
+          validation_id: "d669d1bb-14fc-4828-8e62-efe6a4c49df6"
+        query:
+          current_user_payload: "<value>"
+      requestBody:
+        application/json: {}
+      responses:
+        "200":
+          application/json: {"is_accepted": true, "id": "994e8df9-4879-476d-9e00-23ef6ca8232e", "created_at": "2023-11-04T16:35:30.042Z", "updated_at": "2025-04-06T09:55:43.991Z", "test_case_id": "b94b4fd5-aa6f-46e2-b43c-f7ec9938c92c", "validation_task_id": "490a5968-6126-457e-8dc3-b15c931c0dbb", "validator_task_id": "35dcccc7-4ec6-40ba-a20b-11293ab30341", "validator_user_id": "4a5fcc9d-97aa-4391-bef3-f3b481df4d1d"}
+        "422":
+          application/json: {}
+  delete_validation_validations__validation_id__delete:
+    speakeasy-default-delete-validation-validations-validation-id-delete:
+      parameters:
+        path:
+          validation_id: "2f930687-24ed-4c03-8206-93b88cad0239"
+        query:
+          current_user_payload: "<value>"
+      responses:
+        "422":
+          application/json: {}
+  list_my_batches_batches_mine_get:
+    speakeasy-default-list-my-batches-batches-mine-get:
+      responses:
+        "200":
+          application/json: [{"project_id": "71651322-6aa7-4495-9e9b-910f6ef441fe", "pipeline_run_id": "6707d17f-8dd9-4bcf-8236-449e344a2a28", "id": "6fe7b5f4-786f-429f-bb85-998787bc87ff", "created_at": "2024-05-17T13:21:01.243Z", "updated_at": "2024-01-15T11:36:48.161Z", "total_test_cases": 845294, "completed_test_cases": 864338}]
+  get_batch_by_id_batches__batch_id__get:
+    speakeasy-default-get-batch-by-id-batches-batch-id-get:
+      parameters:
+        path:
+          batch_id: "c1be57c5-73d0-4192-8460-c8feb4a1d0ea"
+      responses:
+        "200":
+          application/json: {"project_id": "9a475818-8dd6-4c27-af0f-b7f8185940e9", "pipeline_run_id": "4966ff95-f56e-452f-9b8b-14fb66c2fb38", "id": "ac2faa09-1163-4fea-9678-04781cf042cc", "created_at": "2023-07-14T18:41:45.593Z", "updated_at": "2024-07-09T13:24:50.239Z", "total_test_cases": 345482, "completed_test_cases": 233892}
+        "422":
+          application/json: {}
+  delete_batch_by_id_batches__batch_id__delete:
+    speakeasy-default-delete-batch-by-id-batches-batch-id-delete:
+      parameters:
+        path:
+          batch_id: "a9a1c03c-b3f4-423f-8840-e8e17909e384"
+      responses:
+        "422":
+          application/json: {}
+  get_batch_test_cases_batches__batch_id__testcases_get:
+    speakeasy-default-get-batch-test-cases-batches-batch-id-testcases-get:
+      parameters:
+        path:
+          batch_id: "a065bb56-ca76-4b09-9cdd-06c06f722ffc"
+      responses:
+        "200":
+          application/json: [{"expected_output": "<value>", "status": "<value>", "is_active": true, "id": "c0933d58-2fa2-4366-8dae-6211524271c2", "user_id": "fa24eb3d-35e9-40b6-9937-28c8e744dc45", "created_at": "2023-07-09T00:26:20.121Z", "updated_at": "2025-09-23T23:34:13.302Z"}, {"expected_output": "<value>", "status": "<value>", "is_active": true, "id": "c0933d58-2fa2-4366-8dae-6211524271c2", "user_id": "fa24eb3d-35e9-40b6-9937-28c8e744dc45", "created_at": "2023-07-09T00:26:20.121Z", "updated_at": "2025-09-23T23:34:13.302Z"}, {"expected_output": "<value>", "status": "<value>", "is_active": true, "id": "c0933d58-2fa2-4366-8dae-6211524271c2", "user_id": "fa24eb3d-35e9-40b6-9937-28c8e744dc45", "created_at": "2023-07-09T00:26:20.121Z", "updated_at": "2025-09-23T23:34:13.302Z"}]
+        "422":
+          application/json: {}
+  get_validations_for_batch_batches__batch_id__validations_get:
+    speakeasy-default-get-validations-for-batch-batches-batch-id-validations-get:
+      parameters:
+        path:
+          batch_id: "59088369-c9bc-43ee-835a-04250b7613a8"
+      responses:
+        "200":
+          application/json: [{"is_accepted": false, "id": "82f4effd-0aca-4d3a-a7d1-29dc58066778", "created_at": "2023-05-08T10:25:49.247Z", "updated_at": "2023-04-20T21:56:07.246Z", "test_case_id": "b7edb07e-46d5-4178-8d6c-22b2d8f25623", "validation_task_id": "d3d8d696-2a7b-4360-9c10-529cc7b82812", "validator_task_id": "4e24d676-78a4-4229-a2d6-af01940752ac", "validator_user_id": "6ed442b4-d952-4e9f-b5a6-8b8901f84731"}, {"is_accepted": false, "id": "82f4effd-0aca-4d3a-a7d1-29dc58066778", "created_at": "2023-05-08T10:25:49.247Z", "updated_at": "2023-04-20T21:56:07.246Z", "test_case_id": "b7edb07e-46d5-4178-8d6c-22b2d8f25623", "validation_task_id": "d3d8d696-2a7b-4360-9c10-529cc7b82812", "validator_task_id": "4e24d676-78a4-4229-a2d6-af01940752ac", "validator_user_id": "6ed442b4-d952-4e9f-b5a6-8b8901f84731"}]
+        "422":
+          application/json: {}
+  create_validation_task_for_batch_endpoint_batches__batch_id__validation_tasks_post:
+    speakeasy-default-create-validation-task-for-batch-endpoint-batches-batch-id-validation-tasks-post:
+      parameters:
+        path:
+          batch_id: "e512837d-3b13-42b2-a375-d1eced4c1aec"
+      responses:
+        "201":
+          application/json: {"validation_task_id": "75551c67-e5d2-4cf5-97f7-6b3417925bdf", "batch_id": "4e3c51f9-5cd0-4b18-a1be-1aed61b2c54f", "status": "<value>", "created_at": "2025-11-29T09:02:05.646Z", "validator_urls": [{"validator_id": "da16c57b-e792-4e6c-86e0-321f5a7906f7", "clerk_user_id": "<id>", "url": "https://wide-eyed-providence.com"}, {"validator_id": "da16c57b-e792-4e6c-86e0-321f5a7906f7", "clerk_user_id": "<id>", "url": "https://wide-eyed-providence.com"}]}
+        "422":
+          application/json: {}
+  get_validation_task_for_batch_endpoint_batches__batch_id__validation_task_get:
+    speakeasy-default-get-validation-task-for-batch-endpoint-batches-batch-id-validation-task-get:
+      parameters:
+        path:
+          batch_id: "050301f2-e370-4717-9c8e-4aec119dea2f"
+      responses:
+        "200":
+          application/json: {"id": "27eafeda-8d18-42fa-96d1-669d7c85f69b", "batch_id": "8e547f62-2a29-4ba3-b0ab-b41db8e00142", "status": "<value>", "created_at": "2023-08-13T19:50:22.257Z", "updated_at": "2023-12-22T03:54:28.752Z", "validators": [{"validator_task_id": "527dea07-e0fe-4917-8e83-d5fd07ff7782", "validator_id": "6cbd0d92-7951-463b-ae48-a1b0a1c164cc", "clerk_user_id": "<id>", "status": "<value>", "url": "https://acclaimed-reconsideration.name"}, {"validator_task_id": "527dea07-e0fe-4917-8e83-d5fd07ff7782", "validator_id": "6cbd0d92-7951-463b-ae48-a1b0a1c164cc", "clerk_user_id": "<id>", "status": "<value>", "url": "https://acclaimed-reconsideration.name"}]}
+        "422":
+          application/json: {}
+  get_batch_status_endpoint_batches__batch_id__status_get:
+    speakeasy-default-get-batch-status-endpoint-batches-batch-id-status-get:
+      parameters:
+        path:
+          batch_id: "f9433f8a-a7a8-45f8-beca-1962cf314022"
+      responses:
+        "200":
+          application/json: {"batch_id": "8d88f1c1-b77d-4fa8-97d4-43c19cfd53cc", "pipeline_run_id": "7c221191-2013-4ff8-8f38-7164f6d74821", "status": "<value>", "pipeline_run_updated_at": "2025-10-28T01:06:53.051Z"}
+        "422":
+          application/json: {}
+  list_user_api_keys_api_keys_get:
+    speakeasy-default-list-user-api-keys-api-keys-get:
+      parameters:
+        query:
+          limit: 10
+          offset: 0
+      responses:
+        "200":
+          application/json: {"apiKeys": [], "pagination": {"totalCount": 317139, "limit": 362598, "offset": 429583}}
+        "422":
+          application/json: {}
+  create_api_key_for_user_api_keys_post:
+    speakeasy-default-create-api-key-for-user-api-keys-post:
+      requestBody:
+        application/json: {"keyName": "<value>"}
+      responses:
+        "201":
+          application/json: {"id": "123e4567-e89b-12d3-a456-426614174000", "key_name": "<value>", "key_prefix": "<value>", "api_key": "<value>", "user_id": "0f8f2d68-c702-4456-b506-bd649f0a9aab", "created_at": "2023-01-08T02:50:38.599Z"}
+        "422":
+          application/json: {}
+  update_api_key_details_api_keys__key_id__put:
+    speakeasy-default-update-api-key-details-api-keys-key-id-put:
+      parameters:
+        path:
+          key_id: "69ca862a-fb74-4f84-92d3-dd14874aae5c"
+      requestBody:
+        application/json: {}
+      responses:
+        "200":
+          application/json: {"id": "b4383347-0008-4441-b7b6-0d1487677572", "user_id": "92472218-01e3-41cf-823d-827b497faf0e", "key_prefix": "<value>", "created_at": "2023-04-12T07:43:29.437Z", "updated_at": "2023-08-21T19:23:23.742Z", "is_active": true}
+        "422":
+          application/json: {}
+  revoke_api_key_api_keys__key_id__delete:
+    speakeasy-default-revoke-api-key-api-keys-key-id-delete:
+      parameters:
+        path:
+          key_id: "98be69b5-84e8-426f-bce1-a75f4a2eb71c"
+      responses:
+        "422":
+          application/json: {}
+  sdk_login_auth_sdk_login_post:
+    speakeasy-default-SDK-login-auth-SDK-login-post:
+      responses:
+        "200":
+          application/json: {"jwt": "<value>"}
+  complete_validator_signup_auth_validators_complete_signup_post:
+    speakeasy-default-complete-validator-signup-auth-validators-complete-signup-post:
+      requestBody:
+        application/json: {"validationTaskId": "e8926b0b-0947-42ed-b09e-90f8ae03f6b2", "validatorId": "9e7bf08a-82e7-4b5d-b801-30059c23c117", "uniqueUrlKey": "<value>"}
+      responses:
+        "200":
+          application/json: "<value>"
+        "422":
+          application/json: {}
+  verify_validator_access_auth_validators_verify_access_post:
+    speakeasy-default-verify-validator-access-auth-validators-verify-access-post:
+      requestBody:
+        application/json: {"validationTaskId": "3092462e-7674-4322-89be-9e48f4298a69", "validatorId": "e3fec0f9-7451-4f71-9146-632a5e7a343b", "uniqueUrlKey": "<value>"}
+      responses:
+        "200":
+          application/json: {"key": "<value>"}
+        "422":
+          application/json: {}
+  get_dataset_items_datasets__dataset_id__items_get:
+    speakeasy-default-get-dataset-items-datasets-dataset-id-items-get:
+      parameters:
+        path:
+          dataset_id: "ebd3200c-226f-403c-9ac9-78e04cf26055"
+        query:
+          limit: 10
+          offset: 0
+      responses:
+        "200":
+          application/json: {"items": [], "pagination": {"total_count": 584741, "limit": 123816, "offset": 105375}}
+        "422":
+          application/json: {}
+  delete_dataset_datasets__dataset_id__delete:
+    speakeasy-default-delete-dataset-datasets-dataset-id-delete:
+      parameters:
+        path:
+          dataset_id: "e503657d-340f-4f49-9559-db4bf8be136c"
+      responses:
+        "422":
+          application/json: {}
+  get_job_details_jobs__job_id__get:
+    speakeasy-default-get-job-details-jobs-job-id-get:
+      parameters:
+        path:
+          job_id: "beda9b0e-9d09-4a53-a3d8-8ba72834ab8e"
+      responses:
+        "200":
+          application/json: {"id": "488bea6d-43c0-4983-bb69-d5a940134d7c", "project_id": "87862429-2e64-400c-a3ed-91e4cc37e9b1", "status": "<value>", "created_at": "2025-10-21T19:12:57.630Z", "updated_at": "2024-02-27T22:44:38.467Z"}
+        "422":
+          application/json: {}
+  cancel_job_by_id_jobs__job_id__cancel_post:
+    speakeasy-default-cancel-job-by-id-jobs-job-id-cancel-post:
+      parameters:
+        path:
+          job_id: "ecacb490-e165-4424-9a70-5bee2b7cb80c"
+      responses:
+        "200":
+          application/json: {"id": "c17452e0-7b4c-4c6d-8b70-4e9d57d9c15f", "project_id": "59f864fe-7d8a-41f0-82a9-997cece19a9f", "status": "<value>", "created_at": "2024-06-20T18:46:28.925Z", "updated_at": "2024-09-24T02:47:57.207Z"}
+        "422":
+          application/json: {}
+  generate_batch_for_job_jobs__job_id__generate_batch_post:
+    speakeasy-default-generate-batch-for-job-jobs-job-id-generate-batch-post:
+      parameters:
+        path:
+          job_id: "7d4e5dfa-cf50-4b48-a68a-c7eca7b06a75"
+      responses:
+        "202":
+          application/json: {"jobId": "b6fc15be-0d7f-4c4c-ae8f-5009de5f2485", "message": "<value>", "flow_run_id": "dfe30908-7f68-42ed-951d-0246c5ca6519", "flow_run_name": "<value>", "flow_run_state": "<value>"}
+        "422":
+          application/json: {}
+  list_job_batches_for_job_jobs__job_id__batches_get:
+    speakeasy-default-list-job-batches-for-job-jobs-job-id-batches-get:
+      parameters:
+        path:
+          job_id: "5b14862a-6c07-4405-bce5-da60422c717f"
+        query:
+          limit: 10
+          offset: 0
+      responses:
+        "200":
+          application/json: "<value>"
+        "422":
+          application/json: {}
+  generate_dataset_for_job_jobs__job_id__generate_dataset_post:
+    speakeasy-default-generate-dataset-for-job-jobs-job-id-generate-dataset-post:
+      parameters:
+        path:
+          job_id: "80bad737-ad60-4c43-aa9f-314f21fe6439"
+      requestBody:
+        application/json: {"name": "<value>"}
+      responses:
+        "202":
+          application/json: {"jobId": "5e0d07bb-6a34-4901-ad2e-6183a1374fd3", "message": "<value>", "flow_run_id": "e5578d3d-32bf-44cc-a80d-329f1b4a76bd", "flow_run_name": "<value>", "flow_run_state": "<value>"}
+        "422":
+          application/json: {}
+  trigger_pipeline_from_stages_jobs_trigger_pipeline_from_stages_post:
+    speakeasy-default-trigger-pipeline-from-stages-jobs-trigger-pipeline-from-stages-post:
+      parameters:
+        query:
+          project_id: "d4ff7706-0465-4327-966d-f90f57254f7d"
+      requestBody:
+        application/json: [{"id": "86663fe7-41a6-49a7-a7ac-de4c44d473ae", "project_id": "72247f39-8cd0-4c93-ac47-b0da59df86ea", "s3_path": "<value>", "source_type": "<value>"}, {"id": "86663fe7-41a6-49a7-a7ac-de4c44d473ae", "project_id": "72247f39-8cd0-4c93-ac47-b0da59df86ea", "s3_path": "<value>", "source_type": "<value>"}, {"id": "86663fe7-41a6-49a7-a7ac-de4c44d473ae", "project_id": "72247f39-8cd0-4c93-ac47-b0da59df86ea", "s3_path": "<value>", "source_type": "<value>"}]
+      responses:
+        "202":
+          application/json: {"jobId": "264ff3cc-a871-4964-b8dc-9e1e45792a11", "message": "<value>", "flow_run_id": "0ad2ac50-70a5-47a8-a8f1-1609a98dd069", "flow_run_name": "<value>", "flow_run_state": "<value>"}
+        "422":
+          application/json: {}
+  list_projects_projects__get:
+    speakeasy-default-list-projects-projects-get:
+      parameters:
+        query:
+          limit: 10
+          offset: 0
+      responses:
+        "200":
+          application/json: {"projects": [{"name": "<value>", "id": "2ca97981-8ddc-4dc5-a296-22900d8ae7b4", "user_id": "7de73c84-f49c-4c03-9b54-d9401decd215", "is_active": true, "created_at": "2023-11-02T23:09:04.437Z", "updated_at": "2024-12-05T06:03:50.249Z"}], "pagination": {"total_count": 57701, "limit": 256168, "offset": 707330}}
+        "422":
+          application/json: {}
+  create_project_projects__post:
+    speakeasy-default-create-project-projects-post:
+      requestBody:
+        application/json: {"name": "<value>"}
+      responses:
+        "201":
+          application/json: {"name": "<value>", "id": "b72b997c-7466-4410-932f-148749ab0dc0", "user_id": "9b1ac328-5776-4d6e-9471-d84a1ae5f0cc", "is_active": false, "created_at": "2023-02-16T04:13:54.023Z", "updated_at": "2025-08-21T21:57:12.952Z"}
+        "422":
+          application/json: {}
+  get_project_projects__project_id__get:
+    speakeasy-default-get-project-projects-project-id-get:
+      parameters:
+        path:
+          project_id: "943d6abb-78a9-4c5b-9bec-407258419bc1"
+      responses:
+        "200":
+          application/json: {"name": "<value>", "id": "817b2c71-d401-4b3a-be6b-96e837820a01", "user_id": "86994ece-7bb9-41bb-a7d6-d6cb0bde7fa2", "is_active": false, "created_at": "2023-05-29T13:05:24.200Z", "updated_at": "2024-08-13T12:59:47.379Z"}
+        "422":
+          application/json: {}
+  delete_project_projects__project_id__delete:
+    speakeasy-default-delete-project-projects-project-id-delete:
+      parameters:
+        path:
+          project_id: "439ccbcb-618b-4613-91d7-137e91e63e44"
+      responses:
+        "422":
+          application/json: {}
+  update_project_projects__project_id__patch:
+    speakeasy-default-update-project-projects-project-id-patch:
+      parameters:
+        path:
+          project_id: "83fdbadc-72c1-40ec-8f44-dbc89033a884"
+      requestBody:
+        application/json: {}
+      responses:
+        "200":
+          application/json: {"name": "<value>", "id": "f302e7ff-3d92-449c-87be-22ef231e4ece", "user_id": "5a275b38-f209-461c-b89a-57917e3fd82b", "is_active": false, "created_at": "2024-11-03T20:18:29.665Z", "updated_at": "2023-09-05T07:33:49.204Z"}
+        "422":
+          application/json: {}
+  archive_project_projects__project_id__archive_post:
+    speakeasy-default-archive-project-projects-project-id-archive-post:
+      parameters:
+        path:
+          project_id: "e100e9b0-dfec-4040-b88c-53b27b58f309"
+      responses:
+        "200":
+          application/json: {"id": "a1602fef-8d4a-4abb-8926-437e814a2532", "is_active": false}
+        "422":
+          application/json: {}
+  get_project_dataset_projects__project_id__dataset_get:
+    speakeasy-default-get-project-dataset-projects-project-id-dataset-get:
+      parameters:
+        path:
+          project_id: "7e6ae26b-5d21-4892-bc4e-b8140e1a901e"
+      responses:
+        "200":
+          application/json: {"name": "<value>", "job_id": "5f178895-580a-4239-bd1f-0cb43f570466", "pipeline_run_id": "45732c47-a6bd-40f8-9daf-2ba996d8393c", "id": "39bc42f3-5925-4944-be63-d906d466d58c", "created_at": "2023-10-28T20:33:31.233Z", "updated_at": "2024-10-27T01:39:07.434Z"}
+        "422":
+          application/json: {}
+  list_project_validators_projects__project_id__validators_get:
+    speakeasy-default-list-project-validators-projects-project-id-validators-get:
+      parameters:
+        path:
+          project_id: "dddbc96d-3d20-4b7b-b3aa-a210dc05da3b"
+      responses:
+        "200":
+          application/json: {"validators": []}
+        "422":
+          application/json: {}
+  add_project_validator_projects__project_id__validators_post:
+    speakeasy-default-add-project-validator-projects-project-id-validators-post:
+      parameters:
+        path:
+          project_id: "08c018e9-dbf4-43a0-9e32-96fa6f850c28"
+      requestBody:
+        application/json: {"email": "Rex98@gmail.com"}
+      responses:
+        "201":
+          application/json: {"id": "8b1a94ed-2da9-40a3-9a97-d143a32ec186", "projectId": "5f03a2e2-0bc0-4fce-89ff-aa29ee161577", "email": "Isaiah.Altenwerth23@hotmail.com", "createdAt": "2024-06-21T00:43:36.843Z"}
+        "422":
+          application/json: {}
+  remove_project_validator_projects__project_id__validators__validator_id__delete:
+    speakeasy-default-remove-project-validator-projects-project-id-validators-validator-id-delete:
+      parameters:
+        path:
+          project_id: "067f1842-4000-418b-8419-570b880f5145"
+          validator_id: "62750ce3-0179-45fe-8435-1085e19833cb"
+      responses:
+        "422":
+          application/json: {}
+  list_jobs_for_project_projects__project_id__jobs_get:
+    speakeasy-default-list-jobs-for-project-projects-project-id-jobs-get:
+      parameters:
+        path:
+          project_id: "0010efcf-b24f-4d20-b852-6976b6a5e3d1"
+        query:
+          limit: 10
+          offset: 0
+      responses:
+        "200":
+          application/json: {"jobs": [], "pagination": {"total_count": 62521, "limit": 215638, "offset": 773085}}
+        "422":
+          application/json: {}
+  create_job_for_project_projects__project_id__jobs_post:
+    speakeasy-default-create-job-for-project-projects-project-id-jobs-post:
+      parameters:
+        path:
+          project_id: "ca95edc9-fd77-4a1c-b1ec-7e1e31ee6061"
+      requestBody:
+        application/json: {"config": {"key": "<value>", "key1": "<value>", "key2": "<value>"}}
+      responses:
+        "201":
+          application/json: {"id": "5727ef12-4ff8-4ba9-a317-3be4115a003c", "project_id": "1fd1b4c7-579b-4f00-89a2-55158fa18e06", "status": "<value>", "created_at": "2023-08-25T23:21:13.314Z", "updated_at": "2024-11-10T16:50:18.237Z"}
+        "422":
+          application/json: {}
+  check_validation_task_status_validation_tasks__validation_task_id__get:
+    speakeasy-default-check-validation-task-status-validation-tasks-validation-task-id-get:
+      parameters:
+        path:
+          validation_task_id: "512391e4-a78a-48d4-9b2b-7e2623c3162c"
+      responses:
+        "200":
+          application/json: {"batch_id": "501af856-f8b7-4fec-923b-43ba3d93f00d", "status": "<value>", "id": "dd3bf0a5-a758-4488-983f-51ab06d5aa0c", "created_at": "2025-12-24T04:39:49.543Z", "updated_at": "2025-07-01T17:24:13.360Z"}
+        "422":
+          application/json: {}
+  submit_test_case_validation_validator_tasks__validator_task_id__validations_post:
+    speakeasy-default-submit-test-case-validation-validator-tasks-validator-task-id-validations-post:
+      parameters:
+        path:
+          validator_task_id: "8c5b7049-6660-4ead-a410-96c788b5ac34"
+      responses:
+        "201":
+          application/json: "<value>"
+        "422":
+          application/json: {}
+  load_test_cases_for_validator_validator_tasks__validator_task_id__test_cases_get:
+    speakeasy-default-load-test-cases-for-validator-validator-tasks-validator-task-id-test-cases-get:
+      parameters:
+        path:
+          validator_task_id: "1b9e9112-0208-4136-b615-2cf2725001b3"
+      responses:
+        "200":
+          application/json: "<value>"
+        "422":
+          application/json: {}
+  edit_test_case_validation_validator_tasks__validator_task_id__validations__validation_id__put:
+    speakeasy-default-edit-test-case-validation-validator-tasks-validator-task-id-validations-validation-id-put:
+      parameters:
+        path:
+          validator_task_id: "7a81676a-9319-40d8-a3a2-a43dff4e039f"
+          validation_id: "a3f28f02-4ed0-48b3-865d-533f86d1c47b"
+      responses:
+        "200":
+          application/json: "<value>"
+        "422":
+          application/json: {}
+  submit_validator_task_validator_tasks__validator_task_id__submit_post:
+    speakeasy-default-submit-validator-task-validator-tasks-validator-task-id-submit-post:
+      parameters:
+        path:
+          validator_task_id: "24d035f6-96dc-4b4d-a5be-e3a06ed8d43b"
+      responses:
+        "200":
+          application/json: "<value>"
+        "422":
+          application/json: {}
+  ping_stages_stages_ping_get:
+    speakeasy-default-ping-stages-stages-ping-get:
+      responses:
+        "200":
+          application/json: {"key": "<value>", "key1": "<value>"}
+  list_stages_stages__get:
+    speakeasy-default-list-stages-stages-get:
+      parameters:
+        query:
+          skip: 0
+          limit: 100
+      responses:
+        "200":
+          application/json: {"stages": [], "total": 563542, "skip": 73468, "limit": 490333}
+        "422":
+          application/json: {}
+  create_stages_for_project_stages__post:
+    speakeasy-default-create-stages-for-project-stages-post:
+      requestBody:
+        application/json: {"files": [{"filename": "agent_rules.yaml", "content": "cnVsZXM6CiAgLSBuYW1lOiAiZXhhbXBsZSI=", "content_type": "application/x-yaml"}], "source_type": "AGENT_RULES", "project_id": "b47e49f5-9e16-4b7b-bf74-55a51d348fc3"}
+      responses:
+        "201":
+          application/json: [{"id": "bb47e49f-59e1-46b7-8bf7-455a51d348fc", "project_id": "dde19c67-80e7-4863-be1a-c280200f70dc", "s3_path": "<value>", "source_type": "<value>"}, {"id": "bb47e49f-59e1-46b7-8bf7-455a51d348fc", "project_id": "dde19c67-80e7-4863-be1a-c280200f70dc", "s3_path": "<value>", "source_type": "<value>"}]
+        "422":
+          application/json: {}
+  get_stage_details_stages__stage_id__get:
+    speakeasy-default-get-stage-details-stages-stage-id-get:
+      parameters:
+        path:
+          stage_id: 716939
+      responses:
+        "200":
+          application/json: {"id": "50cfea70-a121-4559-bdcc-1f06e972e81c", "project_id": "1d455808-6e20-4e09-8eb0-1e87ebe39cdb", "s3_path": "<value>", "source_type": "<value>"}
+        "422":
+          application/json: {}
+  update_stage_stages__stage_id__put:
+    speakeasy-default-update-stage-stages-stage-id-put:
+      parameters:
+        path:
+          stage_id: 703588
+      requestBody:
+        application/json: {}
+      responses:
+        "200":
+          application/json: {"id": "84f63b08-bf23-4f80-9d29-0e476f5e4114", "project_id": "bd0958d9-379e-4b13-8ff8-919680eba338", "s3_path": "<value>", "source_type": "<value>"}
+        "422":
+          application/json: {}
+  delete_stage_stages__stage_id__delete:
+    speakeasy-default-delete-stage-stages-stage-id-delete:
+      parameters:
+        path:
+          stage_id: 691072
+      responses:
+        "200":
+          application/json: {"key": "<value>", "key1": "<value>", "key2": "<value>"}
+        "422":
+          application/json: {}
+  prefect_webhook_integrations_prefect_webhook_post:
+    speakeasy-default-prefect-webhook-integrations-prefect-webhook-post:
+      requestBody:
+        application/json: {"flow_run": {"prefect_flow_run_id": "<id>"}}
+      responses:
+        "202":
+          application/json: "<value>"
+        "422":
+          application/json: {}
+  root__get:
+    speakeasy-default-root-get:
+      responses:
+        "200":
+          application/json: {"key": "<value>", "key1": "<value>", "key2": "<value>"}
+examplesVersion: 1.0.2
+generatedTests: {}

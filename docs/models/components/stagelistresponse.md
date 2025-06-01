@@ -1,0 +1,11 @@
+# StageListResponse
+
+
+## Fields
+
+| Field                                                                                | Type                                                                                 | Required                                                                             | Description                                                                          |
+| ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ |
+| `Stages`                                                                             | [][components.StageDetailsResponse](../../models/components/stagedetailsresponse.md) | :heavy_check_mark:                                                                   | N/A                                                                                  |
+| `Total`                                                                              | *int64*                                                                              | :heavy_check_mark:                                                                   | N/A                                                                                  |
+| `Skip`                                                                               | *int64*                                                                              | :heavy_check_mark:                                                                   | N/A                                                                                  |
+| `Limit`                                                                              | *int64*                                                                              | :heavy_check_mark:                                                                   | N/A                                                                                  |
